@@ -2,7 +2,6 @@ const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 2000
 const app = express()
-const name = "git"
 
 app.use(express.static(path.join(__dirname, 'build')));
 
